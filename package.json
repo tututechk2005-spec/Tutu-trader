@@ -1,0 +1,36 @@
+{
+  "name": "hope-forex-signals-bot",
+  "version": "1.0.0",
+  "description": "Professional Telegram Forex & Gold Signal Bot with AI Analysis",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "setup": "node src/utils/setup.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "better-sqlite3": "^9.4.3",
+    "axios": "^1.6.7",
+    "node-cron": "^3.0.3",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.4.5",
+    "moment": "^2.30.1",
+    "technicalindicators": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [
+    "telegram",
+    "forex",
+    "signals",
+    "trading",
+    "bot"
+  ],
+  "author": "Hope Forex Signals",
+  "license": "MIT"
+}
